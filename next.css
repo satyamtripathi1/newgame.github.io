@@ -1,0 +1,92 @@
+
+main{
+    width: 1000px;
+    height: 897px;
+    /* background: yellow; */
+    margin: auto;
+}
+.vector{
+    height: 297px;
+    padding: 30px;
+}
+
+.star-1{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.star-2{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.star-5{
+    margin-right: 360px;
+    margin-bottom: 20px;
+}
+
+.star-6{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.star-7{
+    margin-right: 50px;
+}
+.star-8{
+    margin-right: 50px;
+
+}
+.container-1{
+    display: flex;
+    height: 297px;
+    margin-bottom: 50px;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+.container-2{
+    font-family: Roboto;
+    font-size: 91px;
+    font-weight: 600;
+    line-height: 107px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    width: 864px;
+    height: 86px;
+    color: #FFFFFF;     
+    margin-bottom: 50px;
+    margin-left: 100px;
+    /* margin: auto; */
+}
+
+.container-3{
+    font-family: Roboto;
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    width: 857px;
+    height: 48px;
+    color: #FFFFFF;     
+ margin-bottom: 50px;
+ margin-left: 100px;
+   /* margin: auto; */
+}
+
+.container-4{
+    margin-left: 430px;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: whitesmoke;
+  }

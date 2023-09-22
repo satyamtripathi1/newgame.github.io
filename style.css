@@ -1,0 +1,297 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Barlow Condensed", sans-serif;
+    background: 
+    #8CC461;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#8CC461;
+
+  }
+  
+  .scoreboard {
+    width: 900px;
+    height: 180px;
+    border-radius: 15px;
+    border: 3px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px 20px;
+  }
+  
+  .title {
+    padding-left: 30px;
+  }
+  
+  .score h1 {
+    color: #565468;
+    font-size: 56px;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  .score p {
+    color: #2a45c2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+    text-align: left;
+  }
+  
+  .hands {
+    background-image: url("../asset/triangle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    width: 476px;
+    height: 430px;
+    margin-top: 100px;
+    display: flex;
+    z-index: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hands img {
+    width: 200px;
+    height: 200px;
+    display: block;
+  }
+  
+  .hands .paper {
+    margin-right: 20px;
+  }
+  
+  .hands .scissors {
+    margin-left: 20px;
+  }
+  
+  .hands .hand {
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+  
+  .hands .hand:hover {
+    transform: translate3d(0px, -8px, 0px);
+  }
+  
+  .contest {
+    display: none;
+    margin-top: 50px;
+    width: 900px;
+  }
+  
+  .contest img {
+    width: 275px;
+    height: 275px;
+  }
+  
+  .contest > div {
+    flex: 1;
+  }
+  
+  .contest h1 {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .contest .newGame {
+    color: hsl(229, 25%, 31%);
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  
+  .newGame:hover {
+    background: rgb(218, 218, 218);
+    transform: translate3d(0px, -2px, 0px);
+  }
+  
+  .contest .handImageContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .referee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .referee h1 {
+    font-size: 45px;
+    color: white;
+  }
+  
+  .computerhand {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main{
+
+    display: flex;
+    justify-content: space-between;
+    top: 62px;
+    left: 240px;
+    border-radius: 13px;
+    border: 2px;
+    border: 5px solid #a21111;
+    width: 800px;
+    height: 158px;
+
+}
+.logo{
+    color: #FFFFFF;
+
+
+}
+.score{
+    display: flex;
+    justify-content:space-between;
+
+    text-align: center;
+    margin-top: 10px;
+}
+.right-box{
+    width: 139px;
+height: 128px;
+top: 77px;
+left: 881px;
+border-radius: 9px;
+background: #FFFFFF;
+margin-left: 50px;
+margin-right: 20px;
+padding-top: 15px;
+font-family: Roboto;
+font-size: 17px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.1em;
+text-align: center;
+}
+
+.right-box h2{
+    background: white;
+    font-weight: 1000;
+    font-size: 50px;
+    margin-top: 15px;
+}
+p{
+
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    /* line-height: 5px; */
+    letter-spacing: 0.1em;
+    text-align: left;
+
+}
+
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    margin: 180px;
+}
+
+.btn-container a:link, a:visited{
+border: 2px solid white;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 5px;
+margin: 15px;
+}
+
+.btn-container a:hover, a:active {
+background-color: whitesmoke;
+color: black;
+}
+
+.nextBtn{
+    display: none;
+}
+
+
+.rulebox{
+    background-color: #004429;
+    color: #FFFFFF;
+    width: 278px;
+    height: 325px;
+    top: 330px;
+    float: right;
+    border-radius: 13px;
+    border: 7px;
+    border: 7px solid white;
+    position: absolute;
+    top: 600px;
+    display: none;
+}
+h2{
+    background: none;
+    text-align: center;
+}
+ul{
+    background: none;
+    padding: 0px 20px 0px 20px;
+    line-height: 22px;
+}
+li{
+    background: none;
+}
+
+::marker{
+    color: darkgoldenrod;
+}
+.rulebox svg{
+    width: 50px;
+    height: 50px;
+    top: 300px;
+    left: 1217px;
+    background: linear-gradient(0deg, #FF0000, #FF0000),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+    margin: -25px;
+}
+
+.rule-btn{
+    background: 
+    #8CC461;
+    border: 2px solid white;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 5px;
+    margin: 15px;
+
+}
+button{
+    cursor: pointer;
+}
+
+
